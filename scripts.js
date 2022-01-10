@@ -13,3 +13,7 @@ function imRight(){
 function noRight(){
     document.getElementById("textBox").innerHTML = "No, I'm right!"
 }
+
+function mouseOver(){
+    alert("Told you to don't hover around me!")
+}

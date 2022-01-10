@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="./style.css">
+<script src="./scripts.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,10 @@
     <title>Don't Hover page</title>
 </head>
 <body>
-    <div class="hover">
-        <script>
-            document.querySelector('.hover').onmouseover = () =>{
-               mouseOver()
-            }
-
-            function mouseOver(){
-                alert("Told you to don't hover around me!")
-            }
-        </script>
-        <img src="./GhostImage.png" alt= "cute Ghost" class=hoverImage height="1000px" width="
-        1000px">
-        <p class= "hovertext" style = "margin: 0;font-size : 100px" >Don't hover around me</p>
+    <div class="hover" onmouseover="mouseOver()">
+        <img src="./GhostImage.png" alt= "cute Ghost" class=hoverImage height="300px" width="
+        300px">
+        <p class= "hovertext" style = "margin: 0;font-size : 30px" >Don't hover around me</p>
     </div>
     
 </body>
