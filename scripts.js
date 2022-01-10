@@ -1,6 +1,6 @@
 function passCheck(){
     if(document.getElementById("password").value == "12345678"){
-        
+        document.querySelector("h1").innerHTML = "Signed In!!!"
     } else {
         alert("Wrong Password!");
     }
