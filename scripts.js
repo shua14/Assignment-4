@@ -7,11 +7,11 @@ function passCheck(){
 }
 
 function imRight(){
-    document.getElementById("textBox").innerHTML = "I'm right"
+    document.querySelector(".textBox").innerHTML = "I'm right"
 }
 
 function noRight(){
-    document.getElementById("textBox").innerHTML = "No, I'm right!"
+    document.querySelector(".textBox").innerHTML = "No, I'm right!"
 }
 
 function mouseOver(){
