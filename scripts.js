@@ -17,3 +17,11 @@ function noRight(){
 function mouseOver(){
     alert("Told you to don't hover around me!")
 }
+
+function volumeCalculator(){
+    let radius = document.getElementById("radius").value;
+
+    let volume = (4/3)* Math.PI * Math.pow(radius, 3);
+
+    alert("The volume of the sphere is " + volume.toFixed(2) + " !")
+}
