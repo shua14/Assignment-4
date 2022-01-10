@@ -5,3 +5,14 @@
 .hoverImage{
     display: block;
 }
+
+body {
+    text-align: center;
+    background-color: gray;
+
+}
+
+.textBox {
+    font-size: 50px;
+    color: aqua;
+}
